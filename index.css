@@ -9,6 +9,14 @@ body {
     background-color: black;
 }
 
+.main {
+    max-height: 100vh;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+
 .content {
     font-family: 'Pretendard-Regular';
     src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
@@ -95,7 +103,9 @@ body {
     position: absolute; 
     top: 150%;  
     left: 0;
-    width: 100%;  
+    width: 100%; 
+    z-index:3;
+    background-color: black; 
 }
 
 .dropdown li {
@@ -115,8 +125,191 @@ letter-spacing: -0.6px;
     display: block;
 }
 
-/* 마우스를 올리면 드롭다운 보이기 */
+
 .right_nv .welcome:hover .dropdown, .right_nv .lion:hover .dropdown {
     display: flex; 
 }
 
+.slider-container {
+    width: 100%;
+    margin-top : 4%;
+}
+
+.slider {
+    display: flex;
+    scroll-snap-type:x mandatory; 
+    overflow-x: auto;
+    scroll-behavior:smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;  
+}
+
+
+.slide {
+    flex: 0 0 100%; 
+    scroll-snap-align: start;  
+}
+
+.slide img {
+    width: 100%;
+}
+
+.slide-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 이미지 스타일 */
+.slide-content img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* 이미지 위에 표시될 텍스트 */
+.slide-text {
+    display : flex;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    gap : 0.4em;
+    z-index:2;
+}
+.img1_log {
+    width:9% !important;
+    object-fit: contain !important;
+}
+
+.img1_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap : 1.5em;
+}
+
+.img2_lion {
+    color: #FFF;
+    font-family: 'Pretendard-Regular';
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 69.887px; /* 174.718% */
+letter-spacing: -1.2px;
+}
+
+.img2-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.76) 100%);
+    z-index: 1;
+}
+
+.img2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+
+
+.mungu {
+    color: #FF7710;
+    font-family: 'Pretendard-Regular';
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 69.887px; /* 174.718% */
+letter-spacing: -1.2px;
+margin-bottom : 4%;
+
+
+}
+
+.text {
+    color: #FFF;
+text-align: center;
+font-family: 'Pretendard-Regular';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 250% */
+letter-spacing: -0.48px;
+}
+.indicator-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    gap : 0.5em;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.indicator.active {
+    background-color: #ff801f;
+}
+
+.img3_mungu {
+    color: #FFF;
+    font-family: 'Pretendard-Regular';
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -1.2px;
+}
+
+.today {
+    color: #FF801F;
+    font-family: 'Pretendard-Regular';
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -1.2px;
+}
+
+.img3_ct {
+    display: flex;
+    flex-direction: column;
+    gap : 1em;
+}
+
+.img3_under {
+    color: #C2C2C2;
+    font-family: 'Pretendard-Regular';
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.9px;
+margin-bottom: 5%;
+}
+
+.slide-contents {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
