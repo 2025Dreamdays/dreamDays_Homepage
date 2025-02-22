@@ -1,0 +1,13 @@
+header {
+    background-color: black;
+    height: 168px;
+    width: 100vw;
+}
+
+nav {
+    background-color: black;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
