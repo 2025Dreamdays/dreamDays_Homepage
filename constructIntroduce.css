@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.middle_nv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 76px 0;
+}
+
+.middle_nv>div {
+    border-right: 1px solid #818181;
+    color: #818181;
+    padding: 0px 18px;
+}
+
+.middle_nv>div:nth-of-type(4) {
+    border-right: 0;
+}
+
+.middle_nv>div:nth-of-type(3) {
+    color: #FFF;
+}
+
+.schoolConstruction {
+    width: 50vw;
+}
+
+.school {
+    padding: 0px 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+
+}
+
+.constructName {
+    color: #FFF;
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+
+.constructText {
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    /* 0px */
+    letter-spacing: -0.48px;
+    margin: 0px 14px;
+    height: 60px;
+}
+
+.orangeNumber {
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #FF7710;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 14px;
+}
+
+.introduce {
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+}
+
+.introduce>div {
+    width: 35vw;
+    height: 71px;
+    border-radius: 10px;
+    background: #262626;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.none {
+    display: none;
+}
+
+.constructMain {
+    display: flex;
+    align-items: center;
+}
+
+.introduce>div:hover {
+    height: 141px;
+}
+
+.introduce>div:hover>.none {
+    display: flex;
+}
