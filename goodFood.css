@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.middle_nv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 76px 0;
+}
+
+.middle_nv>div {
+    border-right: 1px solid #818181;
+    color: #818181;
+    padding: 0px 18px;
+}
+
+.middle_nv>div:nth-of-type(3) {
+    border-right: 0;
+}
+
+
+.foodMainDiv {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 325px;
+    background-color: #262626;
+    margin: 0px auto;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+.foodName,
+.foodLocation,
+.foodMenu,
+.foodtext {
+    color: #FFF;
+}
+
+.goodFoodList {}
+
+
+.foodName {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35.8px;
+    letter-spacing: -3%;
+    margin-top: 54px;
+    margin-bottom: 20px;
+}
+
+.foodLocation {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26.25px;
+    letter-spacing: -3%;
+
+}
+
+.foodMenu {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26.25px;
+    letter-spacing: -3%;
+    margin: 25px 0px;
+
+}
+
+.foodtext {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26.25px;
+    letter-spacing: -3%;
+    padding-top: 32px;
+    box-sizing: border-box;
+    border-top: 1px solid #FFF;
+    width: 65vw;
+}
+
+.none {
+    display: none;
+}
+
+.white {
+    color: #FFF !important;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    background-color: #6E6E6E;
+    border-radius: 50%;
+    color: #FFF;
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 500;
+    font-size: 33.33px;
+    line-height: 39.78px;
+    letter-spacing: -3%;
+
+}
+
+.buttonArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 62px;
+}
+
+.buttonOrange {
+    background-color: #FF7710;
+}
