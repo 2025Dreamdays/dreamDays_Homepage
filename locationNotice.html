@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="locationNotice.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section class="top_nv">
+
+        <section class="left_nv">
+            <div class="content"> LIKELION EULJI</div>
+            <div class="semi_content"> LIKELION EULJI UNIVERSITY 13th</div>
+        </section>
+
+        <section class="right_nv">
+            <div class="welcome"> Welcome EULJI
+                <ul class="dropdown">
+                    <li><a href="#">을지대학교 소개</a></li>
+                    <li><a href="#">맛집 소개</a></li>
+                    <li><a href="#">드림데이즈</a></li>
+                </ul>
+            </div>
+
+            <div class="lion"> 멋쟁이사자처럼
+                <ul class="dropdown">
+                    <li><a href="#">동아리 소개</a></li>
+                    <li><a href="#">트랙 소개</a></li>
+                    <li><a href="#">모집 요강</a></li>
+                </ul>
+            </div>
+
+            <div class="assign_bt">
+                <button class="assign_lion"> 지원하기 </button>
+            </div>
+        </section>
+    </section>
+    <nav class="middle_nv">
+        <div>대학 소개</div>
+        <div>전공 소개</div>
+        <div>건물 소개</div>
+        <div>위치 안내</div>
+    </nav>
+    <section class="main">
+        <section class="mapLocation">
+            <div class="map"></div>
+        </section>
+        <section class="explanLocation">
+            <div class="title">학교 주소</div>
+            <div class="context">을지대학교 성남캠퍼스|(13135)경기도 성남시 수정구 산성대로 553(양지동 212)</div>
+            <div class="title">지하철 이용시</div>
+            <div class="context">지하철 8호선 남한산성 입구역 하차 후 2번 출구 버스 정류장에서 을지대학교 방향 버스 탑승, 을지대학교 정문 및 을지대학교 생활관 정류장에서 하차
+            </div>
+            <div class="title">버스 이용시</div>
+            <div class="context">을지대학교 정문 및 을지대학교 생활관 정류장에서 하차</div>
+            <button onclick="location.href = 'https://kko.kakao.com/Uq_wxTvXrL' "><img src="">자세한 위치 보러 가기</button>
+        </section>
+
+    </section>
+    <!-- <script type="text/javascript"
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4530d88141289ac269d8b5ef914fda88"></script>
+    <script type="text/javascript">
+
+        var container = document.querySelector('map'); //지도를 담을 영역의 DOM 레퍼런스
+        var options = { //지도를 생성할 때 필요한 기본 옵션
+            center: new kakao.maps.LatLng(33.450701, 126.570667), //지도의 중심좌표.
+            level: 3 //지도의 레벨(확대, 축소 정도)
+        };
+
+        var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
+
+    </script> -->
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+.middle_nv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 76px 0;
+}
+
+.middle_nv>div {
+    border-right: 1px solid #818181;
+    color: #818181;
+    padding: 0px 18px;
+}
+
+.middle_nv>div:nth-of-type(4) {
+    border-right: 0;
+}
+
+.middle_nv>div:nth-of-type(2) {
+    color: #FFF;
+}
+
+.main {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -22.13%, rgba(0, 0, 0, 0.76) 100%), url(img/nurseImg.svg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 55vw;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+
+.context {
+
+    color: #F6F6F6;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 201%;
+    /* 48.24px */
+    letter-spacing: -0.72px;
+
+
+}
+
+.title {
+    width: 75px;
+    height: 33px;
+    color: #F6F6F6;
+    font-family: Pretendard;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 201%;
+    /* 44.22px */
+    letter-spacing: -0.66px;
+    width: 119px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 93px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.btn>button {
+
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 201%;
+    /* 44.22px */
+    letter-spacing: -0.66px;
+    width: 189px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    border: 1px solid #FFF;
+    background-color: black;
+    color: #FFF;
+    margin-top: 16px;
+}
+
+.bigTitle {
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    margin-left: 49px;
+
+}
+
+.bigTitle>img {
+    margin-right: 19px;
+}

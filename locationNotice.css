@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.middle_nv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 76px 0;
+}
+
+.middle_nv>div {
+    border-right: 1px solid #818181;
+    color: #818181;
+    padding: 0px 18px;
+}
+
+.middle_nv>div:nth-of-type(4) {
+    border-right: 0;
+}
+
+.middle_nv>div:nth-of-type(4) {
+    color: #FFF;
+}
+
+.context {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.25px;
+    letter-spacing: -3%;
+    color: #FFF;
+}
+
+.title {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.25px;
+    letter-spacing: -3%;
+    width: 133;
+    top: 687px;
+    left: 943px;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    color: #FFF;
+
+
+}
+
+.explanLocation {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50vw;
+}
+
+button {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 44.22px;
+    letter-spacing: -3%;
+    width: 246px;
+    height: 54px;
+    top: 884px;
+    left: 943px;
+    border-radius: 9px;
+    border-width: 1px;
+    border: 1px solid #FFFFFF;
+    color: #FFF;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.title:nth-of-type(1) {
+    width: 111px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title:nth-of-type(3) {
+    width: 151px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title:nth-of-type(5) {
+    width: 133px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    width: 40vw;
+    height: 600px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin: 0px auto;
+}
