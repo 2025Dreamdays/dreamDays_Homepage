@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="top_nv.css">
     <link rel="stylesheet" href="locationNotice.css">
-    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -40,10 +41,10 @@
         </section>
     </section>
     <nav class="middle_nv">
-        <div>대학 소개</div>
-        <div>전공 소개</div>
-        <div>건물 소개</div>
-        <div>위치 안내</div>
+        <div><a href="univIntroduce.html">학교 소개</a></div>
+        <div><a href="departIntroduce.html">전공 소개</a></div>
+        <div><a href="constructIntroduce.html">건물 소개</a></div>
+        <div><a href="locationNotice.html">위치 안내</a></div>
     </nav>
     <section class="main">
         <section class="mapLocation">
@@ -74,6 +75,8 @@
         var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
 
     </script> -->
+    <script src="pageTrans.js"></script>
+
 </body>
 
 </html>

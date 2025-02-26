@@ -1,13 +1,85 @@
-header {
-    background-color: black;
-    height: 168px;
-    width: 100vw;
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 
-nav {
-    background-color: black;
-    height: 80px;
-    width: 100vw;
+div>a {
+    color: #818181;
+    text-decoration: none;
+}
+
+.middle_nv {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    padding: 76px 0;
+}
+
+.middle_nv>div>a {
+    border-right: 1px solid #818181;
+    color: #818181;
+    padding: 0px 18px;
+}
+
+.middle_nv>div>a:nth-of-type(4) {
+    border-right: 0;
+}
+
+.middle_nv>div>a:nth-of-type(1) {
+    color: #FFF;
+}
+
+.main {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -22.13%, rgba(0, 0, 0, 0.76) 100%), url(img/eulji.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 77px;
+    padding-left: 82px;
+
+}
+
+.about {
+    width: 106px;
+    height: 38px;
+
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38.19px;
+    letter-spacing: -3%;
+    color: #FFF;
+
+}
+
+.eulji,
+.univ {
+    width: 230px;
+    height: 54px;
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53.7px;
+    letter-spacing: -3%;
+    color: #FFF;
+}
+
+.eulji {
+    color: #0D4AFF;
+}
+
+.text {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48.24px;
+    letter-spacing: -3%;
+    color: #F6F6F6;
+    margin-top: 54px;
+    width: 55vw;
+
 }
