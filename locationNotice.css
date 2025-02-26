@@ -109,7 +109,7 @@ button {
     align-items: center;
 }
 
-.map {
+#map {
     width: 40vw;
     height: 600px;
 }
