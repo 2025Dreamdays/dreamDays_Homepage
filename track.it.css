@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.middle-top {
+    display: flex;
+    flex-direction: column;
+    gap : 1em;
+    justify-self: center;
+}
+
+.ct {
+    display: flex;
+    flex-direction: row;
+    gap : 1em;
+    text-align: center;
+    justify-content: center;
+}
+
+.track_content {
+    color: #F6F6F6;
+    text-align: center;
+    font-family: 'Pretendard-Regular';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 201%; /* 48.24px */
+    letter-spacing: -0.72px;
+}
+
+.track_it {
+    gap : 0.2em;
+    color: #FF7710;
+    font-family: 'Pretendard-Regular';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.35px;
+    align-self: flex-end;
+}
+
+
+.content_ct {
+    display: flex;
+    flex-direction: row;
+    gap : 2em;
+    width : 80%;
+    justify-self: center;
+    justify-content: space-evenly ;
+}
+
+.left_ct, .center_ct, .right_ct{
+    width: 455px;
+    height: 581px;
+    flex-shrink: 0;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.left_ct {
+    background: #FFB13D;
+}
+
+.center_ct {
+    background: #FF7711;
+}
+
+.right_ct {
+    background: #C5FA58;
+}
+
+.left-title, .center-title, .right-title { 
+    color: #000;
+    font-family: 'Pretendard-Regular';
+    font-size: 29.473px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.884px;
+}
+
+.left-content, .center-content, .right-content {
+    color: #000;
+    font-family: 'Pretendard-Regular';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%;
+letter-spacing: -0.54px;
+text-align: center;
+margin : 0 2em;
+}
+
+.img1_ct{
+    margin-top: 1.2em;
+}
