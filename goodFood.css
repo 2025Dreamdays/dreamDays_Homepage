@@ -24,16 +24,30 @@
 }
 
 
-.foodMainDiv {
+.foodTextMainDiv {
     display: flex;
     flex-direction: column;
     width: 70vw;
+    height: 325px;
+}
+
+.foodMainDiv {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
     height: 325px;
     background-color: #262626;
     margin: 0px auto;
     border-radius: 10px;
     margin-bottom: 32px;
+    position: relative;
+
 }
+
+.foodImg {
+    margin: 35px 31px;
+}
+
 
 .foodName,
 .foodLocation,
@@ -87,11 +101,48 @@
     padding-top: 32px;
     box-sizing: border-box;
     border-top: 1px solid #FFF;
-    width: 65vw;
+    width: 58vw;
+}
+
+.foodCategory {
+    position: absolute;
+    width: 114px;
+    height: 47px;
+    top: 54px;
+    left: 50px;
+    border-radius: 27px;
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26.25px;
+    letter-spacing: -3%;
+    color: #FFF;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.korea {
+    background-color: #6991FF;
+}
+
+.china {
+    background-color: #FF801F;
+}
+
+.sheep {
+    background-color: #8769FF;
+}
+
+.snack {
+    background-color: #E75353;
 }
 
 .none {
-    display: none;
+    display: none !important;
 }
 
 .white {

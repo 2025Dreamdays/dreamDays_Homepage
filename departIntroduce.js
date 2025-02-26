@@ -11,103 +11,103 @@ const societyB = document.querySelector('.society');
 const hsDepartments = [
     {
         department: "임상병리학과",
-        img: "hs1.svg",
+        img: "img\\hs1.svg",
     },
     {
         department: "안경광학과",
-        img: "hs2.svg",
+        img: "img\\hs2.svg",
     },
     {
         department: "응급구조학과",
-        img: "hs3.svg",
+        img: "img\\hs3.svg",
     },
     {
         department: "방사선학과",
-        img: "hs4.svg",
+        img: "img\\hs4.svg",
     },
     {
         department: "치위생학과",
-        img: "hs5.svg",
+        img: "img\\hs5.svg",
     },
     {
         department: "물리치료학과",
-        img: "hs6.svg",
+        img: "img\\hs6.svg",
     },
     {
         department: "의료경영학과",
-        img: "hs7.svg",
+        img: "img\\hs7.svg",
     },
 ]
 
 const aiDepartments = [
     {
         department: "빅데이터인공지능 전공",
-        img: "ddd",
+        img: "img\\ai1.svg",
     },
     {
         department: "글로벌빅데이터AI학과과",
-        img: "ddd",
+        img: "img\\ai2.svg",
     },
 ]
 
 const naDepartments = [
     {
         department: "식품영양전공",
-        img: "ddd",
+        img: "img\\na1.svg",
     },
     {
         department: "식품생명공학전공",
-        img: "ddd",
+        img: "img\\na2.svg",
     },
     {
         department: "안전공학전공",
-        img: "ddd",
+        img: "img\\na3.svg",
     },
     {
         department: "화장품과학전공",
-        img: "ddd",
+        img: "img\\na4.svg",
     },
     {
         department: "의료공학전공",
-        img: "ddd",
+        img: "img\\na5.svg",
     },
 ]
 
 const soDepartments = [
     {
         department: "레저산업전공",
-        img: "ddd",
+        img: "img\\so1.svg",
     },
     {
         department: "뷰티아트전공",
-        img: "ddd",
+        img: "img\\so2.svg",
     },
     {
         department: "시각디자인전공",
-        img: "ddd",
+        img: "img\\so3.svg",
     },
     {
         department: "사회복지전공",
-        img: "ddd",
+        img: "img\\so4.svg",
     },
     {
         department: "아동청소년상담전공",
-        img: "ddd",
+        img: "img\\so5.svg",
     },
     {
         department: "중독상담전공",
-        img: "ddd",
+        img: "img\\so6.svg",
     },
     {
         department: "장례산업전공",
-        img: "ddd",
+        img: "img\\so7.svg",
     },
 ]
 
 const nuDepartments = [
     {
         department: "간호학과",
-        img: "ddd",
+        img: "img\\ns1.svg",
     },
 ]
 
@@ -135,7 +135,7 @@ function selectDepartment(object, button) {
         arrowDiv.setAttribute("class", "arrowDiv");
 
         const departmentArrow = document.createElement("img");
-        departmentArrow.setAttribute("src", "arrow.svg");
+        departmentArrow.setAttribute("src", "img\\arrow.svg");
 
         const departmentName = document.createElement("div");
         departmentName.setAttribute("class", "departmentName");
@@ -159,5 +159,7 @@ healthScienceB.addEventListener("click", () => selectDepartment(hsDepartments, h
 aiB.addEventListener("click", () => selectDepartment(aiDepartments, aiB));
 natureB.addEventListener("click", () => selectDepartment(naDepartments, natureB));
 societyB.addEventListener("click", () => selectDepartment(soDepartments, societyB))
+
+selectDepartment(nuDepartments, nurseB);
 
 
