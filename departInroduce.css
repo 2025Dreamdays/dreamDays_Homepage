@@ -50,6 +50,7 @@ body {
 
 .departmentDiv>img {
     background-size: cover;
+    border-radius: 2rem 2rem 0 0;
 }
 
 .department {
