@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+.clud_it_nv {
+    display : flex;
+    justify-content: center;
+    gap : 1em;
+    margin-top: 2em;
+}
+
+.clud_it_nv div{
+    color: #818181;
+    font-family: 'Pretendard-Regular';
+    font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.66px;
+}
+
+.activity {
+    color: #FFF !important;
+    font-family: 'Pretendard-Regular';
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.66px;
+}
+
+.title {
+    display :flex;
+    align-items: center;
+    color: #FF7710;
+
+    font-family: 'Pretendard-Regular';
+    font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -1.35px;
+justify-content: center;
+margin-top: 1.5em;
+}
+
+.contentss {
+    color: #F6F6F6;
+text-align: center;
+font-family: 'Pretendard-Regular';
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 201%; /* 48.24px */
+letter-spacing: -0.72px;
+margin-top : 0.4em;
+}
+.four_ct {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top : 2em;
+    gap : 1.5em;
+}
+
+.first_ct, .second_ct {
+    display : flex;
+    flex-direction: row;
+    gap : 1.5em;
+}
+
+.f-img, .s-img, .t-img, .q-img {
+    display: flex;
+    flex-direction: row;
+    width: 630.995px;
+    height: 250.363px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #262626;
+    align-items: flex-start;
+    /* justify-content: center;
+     */
+     padding-top: 1em;
+    padding-left: 1em;
+     gap : 2em;
+}
+
+.f-img-ct, .s-img-ct, .t-img-ct, .q-img-ct {
+    display: flex;
+    flex-direction: column;
+    gap : 1.4em;
+    align-items: flex-start;
+}
+
+
+.f-title, .s-title, .t-title, .q-title {
+    color: #ADB3BA;
+    font-family: 'Pretendard-Regular';
+font-size: 29.473px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.884px;
+margin-top : 0.5em;
+}
+
+
+.f-content, .s-content, .t-content, .q-content {
+    color: #F6F6F6;
+    font-family: 'Pretendard-Regular';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 36px */
+letter-spacing: -0.6px;
+}
+
+a {
+    text-decoration: none;
+}

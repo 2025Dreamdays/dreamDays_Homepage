@@ -47,8 +47,8 @@ line-height: normal;
 letter-spacing: -0.66px;
 }
 
-.introduce:hover, .activity:hover {
-    color: #FFF;
+.introduce{
+    color: #FFF !important;
     font-family: 'Pretendard-Regular';
 font-size: 22px;
 font-style: normal;
@@ -154,4 +154,8 @@ letter-spacing: -0.72px;
 .cute_cat_ct img {
     width: 80%;
     height: auto;
+}
+
+a {
+    text-decoration: none;
 }
