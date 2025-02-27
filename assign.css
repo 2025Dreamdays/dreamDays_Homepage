@@ -7,6 +7,7 @@
 
 .middle {
     justify-items: center;
+    z-index:2;
 }
 
 .mid_title {
@@ -18,6 +19,13 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: -1.05px;
 justify-content: center;
+margin-top: 2em;
+}
+
+.line {
+    position: absolute !important;
+    top : 475px !important;
+    left : 180px;
 }
 
 .mid-content {
@@ -28,12 +36,14 @@ font-style: normal;
 font-weight: 400;
 line-height: 40px; /* 166.667% */
 letter-spacing: 0.72px;
+margin-top : 1.1em;
 }
 
 .schedule { 
     display : flex;
     flex-direction: row;
     gap : 5em;
+    margin-top: 5em;
 
 }
 
@@ -41,6 +51,7 @@ letter-spacing: 0.72px;
     display : flex;
     flex-direction: column;
     align-items: center;
+    gap : 2em;
 }
 
 .top {
@@ -54,9 +65,37 @@ letter-spacing: 0.54px;
 }
 
 .under {
+    width: 139px;
+    height: 45px;
+    flex-shrink: 0;
+border-radius: 30.5px;
+background: #FF7710;
+font-family: 'Pretendard-Regular';
+color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.54px;
+align-content: center;
+text-align: center;
+}
+
+.under2 {
     width: 104px;
-height: 45px;
-flex-shrink: 0;
+    height: 45px;
+    flex-shrink: 0;
+border-radius: 30.5px;
+background: #FF7710;
+font-family: 'Pretendard-Regular';
+color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.54px;
+align-content: center;
+text-align: center;
 }
 
 .recruit_outline {
@@ -74,6 +113,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: -1.05px;
 align-self: center;
+margin-top: 4em;
 }
 
 .outline_ct {
@@ -81,6 +121,7 @@ align-self: center;
     flex-direction: row;
     gap : 2em;
     align-items: center;
+    margin-top : 1em;
     justify-self: start;
 }
 
@@ -135,6 +176,7 @@ width: 89px;
 height: 33px;
 flex-shrink: 0;
 text-align: center;
+margin-top: 15em;
 }
 
 .email-ct {
@@ -142,6 +184,7 @@ text-align: center;
     flex-direction: column;
     gap : 1em; 
     justify-content: start;
+    margin-top: 14.8em;
 }
 
 .middle2-ct {
@@ -172,6 +215,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 63px; /* 157.5% */
 letter-spacing: 1.2px;
+margin-top: 5em;
 }
 
 .submit-bt {
@@ -191,9 +235,105 @@ letter-spacing: -0.914px;
 text-align: center;
 align-content: center ;
 justify-self: center;
+margin-top: 2.2em;
+margin-bottom: 2em;
 }
 
 .outlines_ct {
     display : flex;
     gap : 2em;
+}
+
+.m-middle-ct {
+    display : flex;
+    flex-direction: column;
+    width: 204px;
+height: 204px;
+flex-shrink: 0;
+fill: rgba(54, 54, 54, 0.58);
+filter: drop-shadow(11px 0px 24px rgba(0, 0, 0, 0.17)) drop-shadow(43px 0px 43px rgba(0, 0, 0, 0.18)) drop-shadow(96px 0px 58px rgba(0, 0, 0, 0.15)) drop-shadow(172px 0px 69px rgba(0, 0, 0, 0.09)) drop-shadow(268px 0px 75px rgba(0, 0, 0, 0.00));
+background-color: #36363694 !important;
+align-items: center;
+justify-content: center;
+
+/* Ellipse 19 */
+
+position: absolute;
+width: 204px;
+height: 204px;
+left: 580px;
+top: 1080px;
+
+background: rgba(54, 54, 54, 0.58);
+/* 모집일정 그림자 */
+box-shadow: 172px 0px 69px rgba(0, 0, 0, 0.09), 96px 0px 58px rgba(0, 0, 0, 0.15), 43px 0px 43px rgba(0, 0, 0, 0.18), 11px 0px 24px rgba(0, 0, 0, 0.17);
+border-radius: 100px;
+}
+
+.m-middle-ct2 {
+
+position: absolute;
+width: 204px;
+height: 204px;
+left: 860px;
+top: 1080px;
+
+background: rgba(54, 54, 54, 0.58);
+/* 모집일정 그림자 */
+box-shadow: 172px 0px 69px rgba(0, 0, 0, 0.09), 96px 0px 58px rgba(0, 0, 0, 0.15), 43px 0px 43px rgba(0, 0, 0, 0.18), 11px 0px 24px rgba(0, 0, 0, 0.17);
+border-radius: 100px;
+align-content: center;
+justify-items: center;
+text-align: center;
+}
+.m-middle-ct3 {
+/* Ellipse 21 */
+
+position: absolute;
+width: 204px;
+height: 204px;
+left: 1140px;
+top: 1080px;
+
+background: rgba(54, 54, 54, 0.58);
+/* 모집일정 그림자 */
+box-shadow: 172px 0px 69px rgba(0, 0, 0, 0.09), 96px 0px 58px rgba(0, 0, 0, 0.15), 43px 0px 43px rgba(0, 0, 0, 0.18), 11px 0px 24px rgba(0, 0, 0, 0.17);
+border-radius: 100px;
+align-content: center ;
+justify-items: center;
+text-align: center;
+
+}
+
+.ig {
+    width : 250px !important;
+    height: 270px;
+    position: absolute;
+    right : -30px;
+    top : -70px;
+}
+.front {
+    width: 90px;
+    color: #FFF;
+    
+font-family: 'Pretendard-Regular';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 222.222% */
+}
+
+.fronts {
+    width : 190px !important;
+    height: 270px;
+    position: absolute;
+    right : 10px;
+    top : 135px;
+    color: #FFF;
+    
+    font-family: 'Pretendard-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 222.222% */
 }
