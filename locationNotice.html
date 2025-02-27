@@ -6,43 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    
-    
+
+
     <link rel="stylesheet" href="top_nv.css">
     <link rel="stylesheet" href="locationNotice.css">
-    <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=82116ce8195afd5e7b98cf0ba216d08c&libraries=services" defer></script>
-    
-
 </head>
 
 <body>
     <section class="top_nv">
 
         <section class="left_nv">
-        <div class="content"><a href="index.html"> LIKELION EULJI </a></div>
-        <div class="semi_content"> LIKELION EULJI UNIVERSITY 13th</div>
+            <div class="content"><a href="index.html"> LIKELION EULJI </a></div>
+            <div class="semi_content"> LIKELION EULJI UNIVERSITY 13th</div>
         </section>
-       
-        <section class="right_nv">
-        <div class="welcome"> Welcome EULJI 
-            <ul class="dropdown">
-                <li><a href="univIntroduce.html">을지대학교 소개</a></li>
-                <li><a href="goodFood.html">맛집 소개</a></li>
-                <li><a href="https://eulji-hf.netlify.app">드림데이즈</a></li>
-            </ul>
-        </div>
 
-        <div class="lion"> 멋쟁이사자처럼
-            <ul class="dropdown">
-                <li><a href="club_it.html">동아리 소개</a></li>
-                <li><a href="track_it.html">트랙 소개</a></li>
-                <li><a href="assign.html">모집 요강</a></li>
-            </ul>
-             </div>
 
-        <div class="assign_bt"> 
-            <a href="https://forms.gle/ditDdas3tbV1AhHM6"><button class="assign_lion"> 지원하기 </button></a>
-        </div>
+        <section class="right_nv" style="align-items: flex-start; margin-top: 15px;">
+            <div class="welcome" style="margin-top: 10px;"> Welcome EULJI
+                <ul class="dropdown">
+                    <li><a href="#">을지대학교 소개</a></li>
+                    <li><a href="#">맛집 소개</a></li>
+                    <li><a href="#">드림데이즈</a></li>
+                </ul>
+            </div>
+
+            <div class="lion" style="margin-top: 10px;"> 멋쟁이사자처럼
+                <ul class="dropdown">
+                    <li><a href="#">동아리 소개</a></li>
+                    <li><a href="#">트랙 소개</a></li>
+                    <li><a href="#">모집 요강</a></li>
+                </ul>
+            </div>
+
+            <div class="assign_bt">
+                <button class="assign_lion" style="margin-top: 0;"> 지원하기 </button>
+            </div>
+
         </section>
     </section>
     <nav class="middle_nv">
@@ -64,45 +63,10 @@
             <div class="title">버스 이용시</div>
             <div class="context">을지대학교 정문 및 을지대학교 생활관 정류장에서 하차</div>
             <button onclick="location.href = 'https://kko.kakao.com/Uq_wxTvXrL' "><img src="">자세한 위치 보러 가기</button>
-        
+
         </section>
 
-    <!-- </section>
-    <script type="text/javascript"
-        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4530d88141289ac269d8b5ef914fda88"></script>
-    <script>
-        var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-            mapOption = {
-                center: new kakao.maps.LatLng(37.460746, 127.165032), // 지도의 중심좌표
-                level: 3 // 지도의 확대 레벨
-            };
 
-        // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
-        var map = new kakao.maps.Map(mapContainer, mapOption);  -->
-    <!-- </script> -->
-    <script>
-    window.onload = function () {
-      // 카카오 지도 API 로드
-      const mapScript = document.createElement('script');
-      mapScript.async = true;
-      mapScript.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=82116ce8195afd5e7b98cf0ba216d08c&autoload=false`;
-      document.head.appendChild(mapScript);
-
-      // API 로딩 후 카카오 맵 초기화
-      mapScript.addEventListener('load', function () {
-        window.kakao.maps.load(function () {
-          const mapContainer = document.getElementById('map');
-          const mapOption = {
-            center: new window.kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
-            level: 3, // 지도의 확대 레벨
-          };
-          new window.kakao.maps.Map(mapContainer, mapOption);
-        });
-      });
-    };
-
-
-    </script>
 </body>
 
 </html>
