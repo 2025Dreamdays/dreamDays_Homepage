@@ -16,8 +16,9 @@
     display: flex;
     flex-direction: row;
     gap : 1em;
-    text-align: center;
-    justify-content: center;
+    /* text-align: center; */
+    justify-content:center;
+
 }
 
 .track_content {
@@ -41,6 +42,7 @@
     line-height: normal;
     letter-spacing: -1.35px;
     align-self: flex-end;
+    text-align: left;
 }
 
 
@@ -51,6 +53,7 @@
     width : 80%;
     justify-self: center;
     justify-content: space-evenly ;
+    margin-top : 2.5em;
 }
 
 .left_ct, .center_ct, .right_ct{
@@ -61,6 +64,7 @@
     flex-direction: column;
     align-items: center;
     border-radius: 8px;
+    gap : 1em;
 }
 
 .left_ct {
@@ -83,6 +87,7 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.884px;
+    margin-top: 0.3em;
 }
 
 .left-content, .center-content, .right-content {
@@ -97,6 +102,11 @@ text-align: center;
 margin : 0 2em;
 }
 
+
 .img1_ct{
     margin-top: 1.2em;
+}
+
+b {
+    font-weight : 700;
 }

@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.middle {
+    justify-items: center;
+}
+
+.mid_title {
+    color: #FF7710;
+    font-family: 'Pretendard-Regular';
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.05px;
+justify-content: center;
+}
+
+.mid-content {
+    color: #DADADA;
+    font-family: 'Pretendard-Regular';
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 166.667% */
+letter-spacing: 0.72px;
+}
+
+.schedule { 
+    display : flex;
+    flex-direction: row;
+    gap : 5em;
+
+}
+
+.procedure_ct {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    color: #FFF;
+    font-family: 'Pretendard-Regular';  
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 222.222% */
+letter-spacing: 0.54px;
+}
+
+.under {
+    width: 104px;
+height: 45px;
+flex-shrink: 0;
+}
+
+.recruit_outline {
+    display: flex;
+    flex-direction: column;
+    gap : 2em;
+}
+
+.outline-title{
+font-family: 'Pretendard-Regular';
+color: #FF7710;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.05px;
+align-self: center;
+}
+
+.outline_ct {
+    display : flex;
+    flex-direction: row;
+    gap : 2em;
+    align-items: center;
+    justify-self: start;
+}
+
+.middle-ct b {
+    font-weight:700;
+}
+.left-ct {
+    width: 87px;
+height: 33px;
+flex-shrink: 0;
+    border-radius: 44px;
+border: 1px solid #CFCFCF;
+background: rgba(113, 113, 113, 0.44);
+color: #FFF;
+font-family: 'Pretendard-Regular';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 212.5% */
+text-align: center;
+}
+
+.middle-ct {
+    color: #FFF;
+    font-family: 'Pretendard-Regular';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+}
+
+.right-ct {
+    color: #B1B1B1;
+    font-family: 'Pretendard-Regular';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 266.667% */
+}
+
+.left-ct-or {
+    color: #FFF;
+    font-family: 'Pretendard-Regular';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 212.5% */
+border-radius: 44px;
+border: 1px solid #FF801F;
+background: rgba(255, 128, 31, 0.44);
+width: 89px;
+height: 33px;
+flex-shrink: 0;
+text-align: center;
+}
+
+.email-ct {
+    display : flex;
+    flex-direction: column;
+    gap : 1em; 
+    justify-content: start;
+}
+
+.middle2-ct {
+    color: #FFF;
+    font-family: 'Pretendard-Regular';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+
+}
+.middle3-ct {
+    color: #FFF;
+    font-family: 'Pretendard-Regular';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+align-items: flex-start;
+}
+
+.last-content {
+    color: #DADADA;
+text-align: center;
+font-family: 'Pretendard-Regular';
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 63px; /* 157.5% */
+letter-spacing: 1.2px;
+}
+
+.submit-bt {
+    width: 171px;
+height: 60.922px;
+flex-shrink: 0;
+    border-radius: 6px;
+background: #FF801F;
+
+font-family: 'Pretendard-Regular';
+color: #FFF;
+font-size: 30.461px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.914px;
+text-align: center;
+align-content: center ;
+justify-self: center;
+}
+
+.outlines_ct {
+    display : flex;
+    gap : 2em;
+}
