@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    
+    
     <link rel="stylesheet" href="top_nv.css">
     <link rel="stylesheet" href="locationNotice.css">
+    <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=82116ce8195afd5e7b98cf0ba216d08c&libraries=services" defer></script>
+    
+
 </head>
 
 <body>
@@ -59,9 +64,10 @@
             <div class="title">버스 이용시</div>
             <div class="context">을지대학교 정문 및 을지대학교 생활관 정류장에서 하차</div>
             <button onclick="location.href = 'https://kko.kakao.com/Uq_wxTvXrL' "><img src="">자세한 위치 보러 가기</button>
+        
         </section>
 
-    </section>
+    <!-- </section>
     <script type="text/javascript"
         src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4530d88141289ac269d8b5ef914fda88"></script>
     <script>
@@ -72,10 +78,31 @@
             };
 
         // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
-        var map = new kakao.maps.Map(mapContainer, mapOption); 
+        var map = new kakao.maps.Map(mapContainer, mapOption);  -->
+    <!-- </script> -->
+    <script>
+    window.onload = function () {
+      // 카카오 지도 API 로드
+      const mapScript = document.createElement('script');
+      mapScript.async = true;
+      mapScript.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=82116ce8195afd5e7b98cf0ba216d08c&autoload=false`;
+      document.head.appendChild(mapScript);
+
+      // API 로딩 후 카카오 맵 초기화
+      mapScript.addEventListener('load', function () {
+        window.kakao.maps.load(function () {
+          const mapContainer = document.getElementById('map');
+          const mapOption = {
+            center: new window.kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+            level: 3, // 지도의 확대 레벨
+          };
+          new window.kakao.maps.Map(mapContainer, mapOption);
+        });
+      });
+    };
+
+
     </script>
-
-
 </body>
 
 </html>
